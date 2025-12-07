@@ -1,8 +1,4 @@
-# The Ultimate AWS Serverless Tutorial: Lambda + API Gateway [Step-by-Step Project]
-
-[https://harishnshetty.github.io/projects.html](https://harishnshetty.github.io/projects.html)
-
-[![Video Tutorial](https://github.com/harishnshetty/image-data-project/blob/f7b2a2490ad8bae5c0ee6f9056160a6275678341/serverless%20pyhton%20Project.jpg)](https://youtu.be/WfOKddp-vkY)
+# The Ultimate AWS Serverless Deployment: Lambda + API Gateway [Step-by-Step Project]
 
 ---
 
@@ -10,7 +6,7 @@
 
 - Go to DynamoDB in AWS Console.
 - Click **Create table**.
-  - **Table name:** `harish`
+  - **Table name:** `Karthik`
   - **Partition key:** `email`
 - Click **Create table**.
 
@@ -31,14 +27,12 @@
 ## 3. Create a Lambda Function
 
 - Go to **Lambda > Create function**.
-  - **Function name:** `harish`
+  - **Function name:** `Karthik`
   - **Runtime:** Python 3.13
   - **Permissions:** Use an existing role (`Lambda-Role`)
 - After creation, go to **Configuration > General configuration > Edit**.
   - **Timeout:** 15 minutes 0 seconds
 - Upload your code in the **Code** section.
-
-[![Video Tutorial](https://github.com/harishnshetty/image-data-project/blob/f7b2a2490ad8bae5c0ee6f9056160a6275678341/serverless%20pyhton%20Project1.jpg)](https://youtu.be/WfOKddp-vkY)
 
 ---
 
@@ -62,7 +56,7 @@
 <!-- ## 5. Create an ACM Certificate
 
 - Go to **AWS Certificate Manager (ACM)**.
-- Request a public certificate for your custom domain (e.g., `api.harishshetty.xyz`).
+- Request a public certificate for your custom domain (e.g., `api.konakarthikeya.xyz`).
 - Complete domain validation as instructed.
 
 ---
@@ -71,7 +65,7 @@
 
 - In **API Gateway**, go to **Custom domain names**.
 - Click **Create** or **Add domain name**.
-  - **Domain name:** `api.harishshetty.xyz`
+  - **Domain name:** `api.konakarthikeya.xyz`
   - Attach the ACM certificate.
 - Configure **API mappings**:
   - **API:** `Lambda`
@@ -99,10 +93,5 @@
 - Api Gateway
 - lambada
 - Dynamo DB
-
-## For more projects, check out  
-[https://harishnshetty.github.io/projects.html](https://harishnshetty.github.io/projects.html)
-
-[![Video Tutorial](https://github.com/harishnshetty/image-data-project/blob/ff56aabe1691e6e7afbda675d1eac04970c0a8e8/main.png)](https://www.youtube.com/@devopsHarishNShetty) -->
 
 **Done! Your serverless Lambda API is now accessible via your custom domain.**
